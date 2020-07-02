@@ -1,0 +1,60 @@
+/*
+ * Globals
+ */
+@import url("https://fonts.googleapis.com/css2?family=Noto+Serif+JP:wght@300;500;900&display=swap");
+
+/*
+ * Base structure
+ */
+
+html,
+body {
+  height: 100%;
+  background-color: #662843;
+  font-family: "Noto Serif JP", serif;
+}
+
+body {
+  padding-top: 3.5rem;
+  color: #fff;
+}
+
+/*
+ * Header
+ */
+.navbar-brand {
+  font-size: 2rem;
+  margin-right: 2rem;
+}
+
+.jumbotron {
+  margin-top: 1rem;
+  border-radius: 0;
+  background: url(../img/top.png) center no-repeat;
+  background-size: cover;
+  height: 500px;
+  color: #662843;
+}
+.gmap {
+  height: 0;
+  overflow: hidden;
+  padding-bottom: 80.25%;
+  position: relative;
+}
+.gmap iframe {
+  position: absolute;
+  left: 0;
+  top: 0;
+  height: 100%;
+  width: 100%;
+}
+
+/*
+ * Footer
+ */
+.margin-footer {
+  margin: 30px;
+}
+.mastfoot {
+  color: #d3d3d3;
+}
