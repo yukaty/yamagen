@@ -19,22 +19,41 @@ body {
   color: #fff;
 }
 
-/*
- * Header
- */
-.navbar-brand {
-  font-size: 2rem;
-  margin-right: 2rem;
+section h2 {
+  margin: 30px;
 }
 
+/*
+ * Body
+ */
 .jumbotron {
-  margin-top: 1rem;
-  border-radius: 0;
   background: url(../img/top.png) center no-repeat;
   background-size: cover;
-  height: 500px;
+  height: 600px;
+  margin-top: 1rem;
+  border-radius: 0;
   color: #662843;
 }
+
+/* Card */
+.card {
+  background-color: #662843;
+  border: none;
+}
+.card-body {
+  padding: 1rem 3rem;
+}
+.card-title {
+  margin-bottom: 1.5rem;
+}
+.card-text {
+  text-align: left;
+}
+.img-fluid {
+  width: 320px;
+}
+
+/* map */
 .gmap {
   height: 0;
   overflow: hidden;
@@ -53,7 +72,7 @@ body {
  * Footer
  */
 .margin-footer {
-  margin: 30px;
+  margin: 40px;
 }
 .mastfoot {
   color: #d3d3d3;
