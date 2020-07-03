@@ -12,11 +12,21 @@ body {
   height: 100%;
   background-color: #662843;
   font-family: "Noto Serif JP", serif;
+  scroll-behavior: smooth;
 }
 
 body {
   padding-top: 3.5rem;
   color: #fff;
+}
+
+main {
+  padding-top: 100px;
+}
+
+section {
+  margin-top: -100px;
+  padding-top: 100px;
 }
 
 section h2 {
