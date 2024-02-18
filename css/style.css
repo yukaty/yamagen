@@ -104,6 +104,6 @@ table tr:last-child {
  * Footer
  */
 .mastfoot {
-  padding: 20px 0;
+  padding-top: 80px;
   text-align: center;
 }
