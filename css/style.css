@@ -9,16 +9,15 @@
  */
 
 :root {
-  --primary-color: #54142a;
-  --secondary-color: #a37e58;
-  --deep-wine-red: #662843;
+  /* --primary-color: #54142a; */
+  --primary-color: #662843;
+  --secondary-color: #f4e8c1;
   --off-white: #f4f4f4;
-  --cream: #f4e8c1;
 }
 
 body {
   height: 100%;
-  background-color: var(--deep-wine-red);
+  background-color: var(--primary-color);
   color: var(--off-white);
   font-family: "Noto Serif JP", serif;
   scroll-behavior: smooth;
@@ -40,13 +39,21 @@ span {
 }
 
 .btn-link {
-  color: var(--cream);
+  color: var(--secondary-color);
   text-decoration: underline;
 }
 
 /* Cover Image */
 #cover {
-  padding-top: 100px;
+  width: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+#cover img {
+  width: 100%;
+  display: block;
+  height: auto;
 }
 
 /* Table */
@@ -61,12 +68,12 @@ table th {
 }
 
 table tr:last-child {
-  border-bottom: 1px solid #dee2e6;
+  border-bottom: 1px solid var(--off-white);
 }
 
 /* Card */
 .card {
-  background-color: var(--deep-wine-red);
+  background-color: var(--primary-color);
   border: none;
 }
 
@@ -89,6 +96,24 @@ table tr:last-child {
   height: 100%;
   width: 100%;
   border: none;
+}
+
+/* Instagram Button */
+.btn-sns {
+  background: linear-gradient(45deg, #405DE6, #5851DB, #833AB4, #C13584, #E1306C, #FD1D1D);
+  color: var(--off-white);
+  border: none;
+}
+
+.btn-sns:hover {
+  opacity: 0.9;
+  transform: translateY(-1px);
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
+  color: var(--primary-color);
+}
+
+.btn i {
+  font-size: 1.2em;
 }
 
 /*

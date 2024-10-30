@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="ja">
 
 <head>
   <meta charset="utf-8" />
@@ -36,7 +36,7 @@
   </header>
   <main>
     <section id="cover">
-      <div class="container">
+      <div>
         <img class="img-fluid" src="img/yamagen-top.png">
       </div>
     </section><!-- #cover -->
@@ -131,7 +131,6 @@
             </div>
           </div>
         </div>
-        <!-- <p><a class="btn btn-secondary" href="#" role="button">すべての取扱商品をみる&nbsp;&raquo;</a></p> -->
       </div>
     </section><!-- #items -->
     <hr>
@@ -156,13 +155,11 @@
                 <h3 class="card-title">FAX: 0154-36-2181</h3>
                 <p class="card-text">
                   お名前とご住所、注文内容をFAXにてご送信ください。当店にて受信後、確認のお電話をいたします。
-                  <!-- <a class="btn btn-secondary" href="download/fax-template.pdf" role="button">FAX注文用紙のダウンロードはこちら&nbsp;&raquo;</a> -->
                 </p>
               </div>
             </div>
           </div>
         </div>
-        <!-- <p><a class="btn btn-secondary" href="#" role="button">注文方法の詳細はこちら&nbsp;&raquo;</a></p>         -->
       </div>
     </section><!-- #order -->
     <hr>
@@ -223,7 +220,7 @@
       <h2>― 公式 Instagram ―</h2>
       <div class="container">
         <p><span>当店の公式インスタグラムで</span><span>最新情報をお届けしております。</span><span>DMでのご連絡もお待ちしております。</span></p>
-        <a class="btn btn-secondary" href="https://www.instagram.com/yamagen_tamura">
+        <a class="btn btn-sns" href="https://www.instagram.com/yamagen_tamura">
           <i class="bi bi-instagram"></i> やまげん田村商店 Instagram
         </a>
       </div>
@@ -232,12 +229,11 @@
   <footer class="mastfoot mt-auto">
     <div class="inner">
       <p>
-        &copy;
-        <script>
-          document.write(new Date().getFullYear());
-        </script>
-        有限会社やまげん田村商店
+        &copy; <span id="copyright-year"></span> 有限会社やまげん田村商店
       </p>
+      <script>
+        document.getElementById('copyright-year').textContent = new Date().getFullYear();
+      </script>
     </div>
   </footer>
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
